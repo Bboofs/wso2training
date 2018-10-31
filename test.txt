@@ -1,0 +1,496 @@
+[2018-10-31 14:45:40,026] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Date: Wed, 31 Oct 2018 11:45:39 GMT[\r][\n]"
+[2018-10-31 14:45:40,026] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Transfer-Encoding: chunked[\r][\n]"
+[2018-10-31 14:45:40,026] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 14:45:40,026] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "[\r][\n]"
+[2018-10-31 14:45:40,027] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "0[\r][\n]"
+[2018-10-31 14:45:40,031] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "[\r][\n]"
+[2018-10-31 14:45:40,177] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "GET /mocky/1.0.0/* HTTP/1.1[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Host: 10.0.2.15:8260[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Accept: application/json[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Referer: https://10.0.2.15:9460/store/apis/info?name=mocky&version=1.0.0&provider=admin&tenant=carbon.super[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "authorization: Bearer 9fc62692-2bab-3a8d-a8f4-60117702d9ee[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "origin: https://10.0.2.15:9460[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "Connection: keep-alive[\r][\n]"
+[2018-10-31 14:45:40,178] DEBUG - wire HTTPS-Listener I/O dispatcher-1 >> "[\r][\n]"
+[2018-10-31 14:45:41,459]  WARN - APIKeyValidationServiceImpl Invalid session id for thrift authenticator.
+[2018-10-31 14:45:41,574] ERROR - APIKeyValidationServiceImpl Error in invoking validate key via thrift..
+[2018-10-31 14:45:41,770]  WARN - ThriftKeyValidatorClient Login failed.. Authenticating again..
+[2018-10-31 14:45:42,552] DEBUG - wire  >> "POST /thriftAuthenticator HTTP/1.1[\r][\n]"
+[2018-10-31 14:45:42,553] DEBUG - wire  >> "Content-Type: application/x-thrift[\r][\n]"
+[2018-10-31 14:45:42,553] DEBUG - wire  >> "Accept: application/x-thrift[\r][\n]"
+[2018-10-31 14:45:42,553] DEBUG - wire  >> "User-Agent: Java/THttpClient/HC[\r][\n]"
+[2018-10-31 14:45:42,554] DEBUG - wire  >> "Content-Length: 31[\r][\n]"
+[2018-10-31 14:45:42,554] DEBUG - wire  >> "Host: localhost:9460[\r][\n]"
+[2018-10-31 14:45:42,554] DEBUG - wire  >> "Connection: Keep-Alive[\r][\n]"
+[2018-10-31 14:45:42,554] DEBUG - wire  >> "Cookie: JSESSIONID=B38B10D66D23B19D7FA1BF68CAEB31D2[\r][\n]"
+[2018-10-31 14:45:42,554] DEBUG - wire  >> "Cookie2: $Version=1[\r][\n]"
+[2018-10-31 14:45:42,559] DEBUG - wire  >> "[\r][\n]"
+[2018-10-31 14:45:42,575] DEBUG - wire  >> "[0x82]![0x1][0xc]authenticate[0x18][0x5]admin[0x18][0x5]admin[0x0]"
+[2018-10-31 14:45:42,696]  INFO - CarbonAuthenticationUtil 'admin@carbon.super [-1234]' logged in at [2018-10-31 14:45:42,694+0300] from IP address 
+[2018-10-31 14:45:42,709] DEBUG - wire  << "HTTP/1.1 200 OK[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "X-Frame-Options: DENY[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "X-Content-Type-Options: nosniff[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "Set-Cookie: JSESSIONID=3AB84226508A924541930217C4A4D3CE; Path=/; Secure; HttpOnly[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "Content-Type: application/x-thrift;charset=UTF-8[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "Transfer-Encoding: chunked[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "Date: Wed, 31 Oct 2018 11:45:42 GMT[\r][\n]"
+[2018-10-31 14:45:42,712] DEBUG - wire  << "Server: WSO2 Carbon Server[\r][\n]"
+[2018-10-31 14:45:42,713] DEBUG - wire  << "[\r][\n]"
+[2018-10-31 14:45:42,727] DEBUG - wire  << "38[\r][\n]"
+[2018-10-31 14:45:42,727] DEBUG - wire  << "[0x82]A[0x1][0xc]authenticate[0x8][0x0]$fce9a15f-d94c-4c55-b1ff-4e7339386e95[0x0]"
+[2018-10-31 14:45:42,727] DEBUG - wire  << "[\r][\n]"
+[2018-10-31 14:45:42,727] DEBUG - wire  << "0[\r][\n]"
+[2018-10-31 14:45:42,727] DEBUG - wire  << "[\r][\n]"
+[2018-10-31 14:45:43,464] ERROR - AMDefaultKeyManagerImpl Invalid OAuth Token : Access token expired
+[2018-10-31 14:45:43,540]  WARN - APIAuthenticationHandler API authentication failure due to Invalid Credentials
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Accept: application/json[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Access-Control-Allow-Methods: DELETE,POST,PATCH,PUT,GET[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "origin: https://10.0.2.15:9460[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "WWW-Authenticate: OAuth2 realm="WSO2 API Manager", error="invalid token", error_description="The access token expired"[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Referer: https://10.0.2.15:9460/store/apis/info?name=mocky&version=1.0.0&provider=admin&tenant=carbon.super[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Accept-Encoding: gzip, deflate, br[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Accept-Language: en-US,en;q=0.5[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Access-Control-Allow-Headers: authorization,Access-Control-Allow-Origin,Content-Type,SOAPAction[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Date: Wed, 31 Oct 2018 11:45:44 GMT[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Transfer-Encoding: chunked[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "Connection: keep-alive[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "d8[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "{"fault":{"code":900901,"message":"Invalid Credentials","description":"Access failure for API: /mocky/1.0.0, version: 1.0.0 status: (900901) - Invalid Credentials. Make sure you have given the correct access token"}}[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "0[\r][\n]"
+[2018-10-31 14:45:44,087] DEBUG - wire HTTPS-Listener I/O dispatcher-1 << "[\r][\n]"
+[2018-10-31 14:51:43,429]  INFO - InboundDBSyncRequestEvent Running DB sync task.
+
+
+
+
+^C[2018-10-31 14:59:28,836]  INFO - CarbonServerManager Shutdown hook triggered....
+[2018-10-31 14:59:28,877]  INFO - CarbonServerManager Gracefully shutting down WSO2 API Manager...
+[2018-10-31 14:59:29,372]  INFO - ServerManagement Starting to switch to maintenance mode...
+[2018-10-31 14:59:29,414]  INFO - PassThroughHttpListener Stopping Pass-through HTTP Listener..
+[2018-10-31 14:59:29,438]  INFO - PassThroughListeningIOReactorManager Shutting down IO Reactor bind for port 8297
+[2018-10-31 14:59:29,655]  INFO - PassThroughListeningIOReactorManager HTTP-Listener I/O dispatcher Listener shutdown.
+[2018-10-31 14:59:30,174]  INFO - PassThroughHttpSSLListener Stopping Pass-through HTTPS Listener..
+[2018-10-31 14:59:30,176]  INFO - PassThroughListeningIOReactorManager Shutting down IO Reactor bind for port 8260
+[2018-10-31 14:59:30,177]  INFO - PassThroughListeningIOReactorManager HTTPS-Listener I/O dispatcher Listener shutdown.
+[2018-10-31 14:59:30,467]  INFO - ServerManagement Stopped all transport listeners
+[2018-10-31 14:59:30,467]  INFO - ServerManagement Waiting for request service completion...
+[2018-10-31 14:59:31,112]  INFO - ServerManagement All requests have been served.
+[2018-10-31 14:59:31,112]  INFO - ServerManagement Waiting for deployment completion...
+[2018-10-31 14:59:37,700]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.14]
+[2018-10-31 14:59:38,931]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/throttle/data/v1]
+[2018-10-31 14:59:39,728]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.14]
+[2018-10-31 14:59:40,504]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1]
+[2018-10-31 14:59:41,313]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1]
+[2018-10-31 14:59:44,204]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher/v0.14]
+[2018-10-31 14:59:47,030]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2]
+[2018-10-31 14:59:48,432]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store/v0.14]
+[2018-10-31 14:59:48,841]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint]
+[2018-10-31 14:59:49,647]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0]
+[2018-10-31 14:59:50,533]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store]
+[2018-10-31 14:59:50,616]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/publisher]
+[2018-10-31 14:59:50,643]  INFO - WebApplication Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/admin]
+[2018-10-31 14:59:50,683]  INFO - ServerManagement All deployment tasks have been completed.
+[2018-10-31 14:59:50,683]  INFO - ServerManagement Waiting for server task completion...
+[2018-10-31 14:59:50,870]  INFO - RegistryCoreServiceComponent Writing logs 
+[2018-10-31 14:59:50,912]  INFO - ServerManagement All server tasks have been completed.
+[2018-10-31 14:59:50,912]  INFO - CarbonServerManager Shutting down WSO2 API Manager...
+[2018-10-31 14:59:51,024]  INFO - JMSTransportHandler Starting to Shutdown the Listener...
+[2018-10-31 14:59:53,425]  INFO - StorageQueue Purging messages of queue AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1
+[2018-10-31 14:59:53,761]  INFO - AndesContextInformationManager Queue Deleted: AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1
+[2018-10-31 14:59:53,762]  INFO - AndesSubscriptionManager Remove Local Subscription AMQP subscriptionId=4bb90604-c569-47bf-a6de-34d5ac1c01cb,storageQueue=AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1,protocolType=AMQP,isActive=true,connection= [ connectedIP=/10.0.2.15:44540/1,connectedNode=NODE:loogs-VirtualBox/127.0.1.1,protocolChannelID=124ccb3b-981a-48b4-a5ac-7bceed51f7d1 ]
+[2018-10-31 15:00:00,083]  INFO - ChannelCloseHandler Received channel close for id 1 citing class 0 and method 0
+[2018-10-31 15:00:00,090]  INFO - AMQChannel No consumers to unsubscribe on channel [/10.0.2.15:44540(admin):1]
+[2018-10-31 15:00:00,170]  INFO - FlowControlManager Channel removed (ID: 10.0.2.15:44540)
+[2018-10-31 15:00:01,148]  INFO - ConnectionCloseMethodHandler ConnectionClose received with reply code/reply text 200/JMS client is closing the connection. for /10.0.2.15:44540(admin)
+[2018-10-31 15:00:01,385]  INFO - JMSTaskManager Task manager for jms consumer 1000 shutdown
+[2018-10-31 15:00:01,387]  INFO - JMSListener Stopped listening for JMS messages to listener : Siddhi-JMS-Consumer#throttleData
+[2018-10-31 15:00:01,567]  INFO - FlowControlManager Prepare channels for shutdown.
+[2018-10-31 15:00:01,616]  INFO - MessagingEngine Stopping SlotDelivery Worker.
+[2018-10-31 15:00:01,616]  INFO - TaskExecutorService Stopping task manager. Task count 0
+[2018-10-31 15:00:01,650]  INFO - TaskProcessor Task processor stopped. Task queue size 0
+[2018-10-31 15:00:01,650]  INFO - TaskProcessor Task processor stopped. Task queue size 0
+[2018-10-31 15:00:01,650]  INFO - TaskProcessor Task processor stopped. Task queue size 0
+[2018-10-31 15:00:01,650]  INFO - TaskProcessor Task processor stopped. Task queue size 0
+[2018-10-31 15:00:01,650]  INFO - TaskProcessor Task processor stopped. Task queue size 0
+[2018-10-31 15:00:01,684]  INFO - SlotMessageCounter Stopping slot timeout task executor
+[2018-10-31 15:00:01,734]  INFO - ApplicationRegistry Shutting down ApplicationRegistry(org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@882a4b0)
+[2018-10-31 15:00:01,734]  INFO - ApplicationRegistry Shutting down ApplicationRegistry:org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@882a4b0
+[2018-10-31 15:00:02,227]  INFO - PrincipalDatabaseAuthenticationManager Unregistering UserManagementMBean
+[2018-10-31 15:00:02,335]  INFO - ClusterManager Clearing the Persisted State of Node with ID NODE:loogs-VirtualBox/127.0.1.1
+[2018-10-31 15:00:02,370]  INFO - AndesKernelBoot Stop syncing exchanges, queues, bindings and subscriptions...
+[2018-10-31 15:00:02,497]  INFO - CarbonServerManager Shutting down OSGi framework...
+[2018-10-31 15:00:09,084]  WARN - MediationPersistenceManager Mediation persistence manager is either not initialized or not in the 'accepting' mode. Ignoring the save request.
+[2018-10-31 15:00:09,106]  INFO - Axis2SynapseController Undeploying the Synapse service...
+[2018-10-31 15:00:09,151]  INFO - Axis2SynapseController Undeploying Proxy services...
+[2018-10-31 15:00:09,151]  INFO - DeploymentInterceptor Removing Axis2 Service: WorkflowCallbackService {super-tenant}
+[2018-10-31 15:00:09,153]  INFO - Axis2SynapseController Undeploying EventSources...
+[2018-10-31 15:00:09,176]  INFO - InboundEndpoint Destroying Inbound Endpoint: WebSocketInboundEndpoint
+[2018-10-31 15:00:09,577]  INFO - InboundEndpoint Destroying Inbound Endpoint: SecureWebSocketEP
+[2018-10-31 15:00:09,661]  INFO - API Destroying API: admin--mocky:v1.0.0
+[2018-10-31 15:00:09,661]  INFO - API Destroying API: _WSO2AMAuthorizeAPI_
+[2018-10-31 15:00:09,671]  INFO - API Destroying API: _WSO2AMUserInfoAPI_
+[2018-10-31 15:00:09,671]  INFO - API Destroying API: _WSO2AMRevokeAPI_
+[2018-10-31 15:00:09,672]  INFO - API Destroying API: _WSO2AMTokenAPI_
+[2018-10-31 15:00:09,687]  INFO - SynapseTaskManager Shutting down the task manager
+[2018-10-31 15:00:09,762]  INFO - BinaryDataReceiverServiceComponent Binary Data Receiver server shutting down...
+[2018-10-31 15:00:09,762]  INFO - BinaryDataReceiver Stopping Binary Server..
+[2018-10-31 15:00:10,522]  INFO - ThriftDataReceiverDS Thrift server shutting down...
+[2018-10-31 15:00:11,030]  INFO - EventReceiverDeployer Event Receiver undeployed successfully: blockingWso2EventReceiver.xml
+[2018-10-31 15:00:11,352]  INFO - EventReceiverDeployer Event receiver deployment held back and in inactive state: blockingWso2EventReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2018-10-31 15:00:11,354]  INFO - CarbonEventReceiverService Event receiver : blockingWso2EventReceiver in inactive state because dependency could not be found: wso2event
+[2018-10-31 15:00:11,354]  INFO - EventReceiverDeployer Event Receiver undeployed successfully: throttleWSO2EventReceiver.xml
+[2018-10-31 15:00:11,405]  INFO - EventReceiverDeployer Event receiver deployment held back and in inactive state: throttleWSO2EventReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2018-10-31 15:00:11,405]  INFO - CarbonEventReceiverService Event receiver : throttleWSO2EventReceiver in inactive state because dependency could not be found: wso2event
+[2018-10-31 15:00:11,405]  INFO - EventReceiverDeployer Event Receiver undeployed successfully: keyTemplateWso2EventReceiver.xml
+[2018-10-31 15:00:11,417]  INFO - EventReceiverDeployer Event receiver deployment held back and in inactive state: keyTemplateWso2EventReceiver.xml, waiting for Input Event Adapter dependency: wso2event
+[2018-10-31 15:00:11,417]  INFO - CarbonEventReceiverService Event receiver : keyTemplateWso2EventReceiver in inactive state because dependency could not be found: wso2event
+[2018-10-31 15:00:11,726]  INFO - EventPublisherDeployer Event Publisher undeployed successfully : blockingEventJMSPublisher.xml
+[2018-10-31 15:00:11,811]  INFO - EventPublisherDeployer Event Publisher deployment held back and in inactive state : blockingEventJMSPublisher.xml, waiting for Output Event Adapter dependency : jms
+[2018-10-31 15:00:11,812]  INFO - CarbonEventPublisherService Event publisher : blockingEventJMSPublisher  is in inactive state because dependency could not be found : jms
+[2018-10-31 15:00:11,812]  INFO - EventPublisherDeployer Event Publisher undeployed successfully : jmsEventPublisher_1.10.0.xml
+[2018-10-31 15:00:11,821]  INFO - EventPublisherDeployer Event Publisher deployment held back and in inactive state : jmsEventPublisher_1.10.0.xml, waiting for Output Event Adapter dependency : jms
+[2018-10-31 15:00:11,822]  INFO - CarbonEventPublisherService Event publisher : jmsEventPublisher-1.0.0  is in inactive state because dependency could not be found : jms
+[2018-10-31 15:00:11,824]  INFO - EventPublisherDeployer Event Publisher undeployed successfully : jmsEventPublisher.xml
+[2018-10-31 15:00:11,826]  INFO - EventPublisherDeployer Event Publisher deployment held back and in inactive state : jmsEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+[2018-10-31 15:00:11,828]  INFO - CarbonEventPublisherService Event publisher : jmsEventPublisher  is in inactive state because dependency could not be found : jms
+[2018-10-31 15:00:11,828]  INFO - EventPublisherDeployer Event Publisher undeployed successfully : keyTemplateEventPublisher.xml
+[2018-10-31 15:00:11,843]  INFO - EventPublisherDeployer Event Publisher deployment held back and in inactive state : keyTemplateEventPublisher.xml, waiting for Output Event Adapter dependency : jms
+[2018-10-31 15:00:11,845]  INFO - CarbonEventPublisherService Event publisher : keyTemplateEventPublisher  is in inactive state because dependency could not be found : jms
+[2018-10-31 15:00:12,003]  INFO - EventReceiverDeployer Event Receiver undeployed successfully: throttleEventReceiver.xml
+[2018-10-31 15:00:12,009]  INFO - EventReceiverDeployer Event receiver deployment held back and in inactive state: throttleEventReceiver.xml, waiting for Input Event Adapter dependency: http
+[2018-10-31 15:00:12,009]  INFO - CarbonEventReceiverService Event receiver : throttleEventReceiver in inactive state because dependency could not be found: http
+[2018-10-31 15:00:12,773]  INFO - JMSTransportHandler Starting to Shutdown the Listener...
+[2018-10-31 15:00:13,598]  INFO - CarbonEventProcessorService Successfully shutdown ExecutionPlans
+[2018-10-31 15:00:13,754]  INFO - CarbonServerManager Stopping CarbonServerManager...
+[2018-10-31 15:00:13,795]  INFO - WebsocketTransportSender WSS Sender Shutdown
+[2018-10-31 15:00:13,907]  INFO - PassThroughHttpSender HTTP Sender shutdown
+[2018-10-31 15:00:14,035]  INFO - PassThroughHttpSSLSender HTTPS Sender shutdown
+[2018-10-31 15:00:14,036]  INFO - WebsocketTransportSender WS Sender Shutdown
+[2018-10-31 15:00:14,036]  INFO - PassThroughHttpListener Destroying PassThroughHttpListener
+[2018-10-31 15:00:14,053]  INFO - PassThroughHttpSSLListener Destroying PassThroughHttpListener
+[2018-10-31 15:00:18,521]  INFO - CarbonTomcatServiceComponent Stopping the carbon web-app registered under : /
+[2018-10-31 15:00:19,279]  INFO - AbstractReporter Stopped JMX reporter for Metrics
+[2018-10-31 15:00:35,333]  INFO - CarbonServerManager Shutdown complete
+[2018-10-31 15:00:35,333]  INFO - CarbonServerManager Halting JVM
+
+loogs@loogs-VirtualBox:/usr/lib/wso2/wso2am/2.6.0/bin$ 
+loogs@loogs-VirtualBox:/usr/lib/wso2/wso2am/2.6.0/bin$ 
+loogs@loogs-VirtualBox:/usr/lib/wso2/wso2am/2.6.0/bin$ 
+loogs@loogs-VirtualBox:/usr/lib/wso2/wso2am/2.6.0/bin$ ./wso2server.sh
+JAVA_HOME environment variable is set to /usr/lib/jvm/java-8-openjdk-amd64
+CARBON_HOME environment variable is set to /usr/lib/wso2/wso2am/2.6.0
+Using Java memory options: -Xms256m -Xmx1024m
+[2018-10-31 15:00:59,247]  INFO - QpidBundleActivator Setting BundleContext in PluginManager
+[2018-10-31 15:01:01,378]  INFO - CarbonCoreActivator Starting WSO2 Carbon...
+[2018-10-31 15:01:01,379]  INFO - CarbonCoreActivator Operating System : Linux 4.15.0-29-generic, amd64
+[2018-10-31 15:01:01,379]  INFO - CarbonCoreActivator Java Home        : /usr/lib/jvm/java-8-openjdk-amd64/jre
+[2018-10-31 15:01:01,380]  INFO - CarbonCoreActivator Java Version     : 1.8.0_181
+[2018-10-31 15:01:01,380]  INFO - CarbonCoreActivator Java VM          : OpenJDK 64-Bit Server VM 25.181-b13,Oracle Corporation
+[2018-10-31 15:01:01,380]  INFO - CarbonCoreActivator Carbon Home      : /usr/lib/wso2/wso2am/2.6.0
+[2018-10-31 15:01:01,380]  INFO - CarbonCoreActivator Java Temp Dir    : /usr/lib/wso2/wso2am/2.6.0/tmp
+[2018-10-31 15:01:01,380]  INFO - CarbonCoreActivator User             : loogs, en-US, Africa/Nairobi
+[2018-10-31 15:01:01,787]  INFO - DefaultCryptoProviderComponent 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+[2018-10-31 15:01:02,651]  INFO - KafkaEventAdapterServiceDS Successfully deployed the Kafka output event adaptor service
+[2018-10-31 15:01:02,926]  INFO - TemplateDeployerServiceTrackerDS Successfully deployed the execution manager tracker service
+[2018-10-31 15:01:06,962]  INFO - ConsentManagerComponent ConsentManagerComponent is activated.
+[2018-10-31 15:01:07,654]  INFO - BinaryDataReceiver Started Binary SSL Transport on port : 9728
+[2018-10-31 15:01:07,657]  INFO - BinaryDataReceiver Started Binary TCP Transport on port : 9628
+[2018-10-31 15:01:07,696]  INFO - DataBridgeDS Successfully deployed Agent Server 
+[2018-10-31 15:01:08,325]  INFO - EmbeddedRegistryService Configured Registry in 181ms
+[2018-10-31 15:01:08,499]  INFO - RegistryCoreServiceComponent Registry Mode    : READ-WRITE
+[2018-10-31 15:01:08,565]  INFO - AndesConfigurationManager Main andes configuration located at : /usr/lib/wso2/wso2am/2.6.0/repository/conf/broker.xml
+[2018-10-31 15:01:09,115]  INFO - AndesConfigurationManager Main andes configuration located at : /usr/lib/wso2/wso2am/2.6.0/repository/conf/broker.xml
+[2018-10-31 15:01:15,953]  INFO - JmxReporterBuilder Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+[2018-10-31 15:01:16,002]  INFO - AbstractReporter Started JMX reporter for Metrics
+[2018-10-31 15:01:20,806]  INFO - SolrClient Default Embedded Solr Server Initialized
+[2018-10-31 15:01:21,286]  INFO - UserStoreMgtDSComponent Carbon UserStoreMgtDSComponent activated successfully.
+[2018-10-31 15:01:34,009]  INFO - TaglibUriRule TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+[2018-10-31 15:01:35,358]  INFO - ClusterBuilder Clustering has been disabled
+[2018-10-31 15:01:35,908]  INFO - UserStoreConfigurationDeployer User Store Configuration Deployer initiated.
+[2018-10-31 15:01:35,908]  INFO - UserStoreConfigurationDeployer User Store Configuration Deployer initiated.
+[2018-10-31 15:01:36,979]  INFO - WebsocketTransportSender WSS Sender started
+[2018-10-31 15:01:36,983]  INFO - PassThroughHttpSender Initializing Pass-through HTTP/S Sender...
+[2018-10-31 15:01:37,076]  INFO - PassThroughHttpSender Pass-through HTTP Sender started...
+[2018-10-31 15:01:37,077]  INFO - PassThroughHttpSSLSender Initializing Pass-through HTTP/S Sender...
+[2018-10-31 15:01:37,105]  INFO - ClientConnFactoryBuilder customSSLProfiles configuration is loaded from path: /usr/lib/wso2/wso2am/2.6.0/repository/resources/security/sslprofiles.xml
+[2018-10-31 15:01:37,106]  INFO - ClientConnFactoryBuilder HTTPS Loading custom SSL profiles for the HTTPS sender
+[2018-10-31 15:01:37,114]  INFO - ClientConnFactoryBuilder HTTPS Custom SSL profiles initialized for 1 servers
+[2018-10-31 15:01:37,114]  INFO - PassThroughHttpSSLSender Pass-through HTTPS Sender started...
+[2018-10-31 15:01:37,123]  INFO - WebsocketTransportSender WS Sender started
+[2018-10-31 15:01:37,135]  INFO - PassThroughHttpListener Initializing Pass-through HTTP/S Listener...
+[2018-10-31 15:01:37,171]  INFO - PassThroughHttpSSLListener Initializing Pass-through HTTP/S Listener...
+[2018-10-31 15:01:37,368]  INFO - ModuleDeployer Deploying module: addressing-1.6.1-wso2v28 - file:/usr/lib/wso2/wso2am/2.6.0/repository/deployment/client/modules/addressing-1.6.1-wso2v28.mar
+[2018-10-31 15:01:37,776]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.andes.admin-3.2.44 - 
+[2018-10-31 15:01:37,850]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.andes.admin.mqtt-3.2.44 - 
+[2018-10-31 15:01:37,975]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.andes.event.admin-3.2.44 - 
+[2018-10-31 15:01:39,768]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.identity.application.authentication.framework-5.12.153 - 
+[2018-10-31 15:01:40,079]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.identity.discovery-6.0.53 - 
+[2018-10-31 15:01:40,378]  INFO - DeploymentInterceptor Deploying Axis2 service: AccountCredentialMgtConfigService {super-tenant}
+[2018-10-31 15:01:40,379]  INFO - DeploymentInterceptor Deploying Axis2 service: UserIdentityManagementAdminService {super-tenant}
+[2018-10-31 15:01:40,380]  INFO - DeploymentInterceptor Deploying Axis2 service: UserInformationRecoveryService {super-tenant}
+[2018-10-31 15:01:40,382]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.identity.mgt-5.12.153 - 
+[2018-10-31 15:01:40,768]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.identity.webfinger-6.0.53 - 
+[2018-10-31 15:01:41,337]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.message.processor-4.6.105 - 
+[2018-10-31 15:01:41,391]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.message.store-4.6.105 - 
+[2018-10-31 15:01:42,705]  INFO - DeploymentEngine Deploying Web service: org.wso2.carbon.registry.ws.api-4.6.38 - 
+[2018-10-31 15:01:44,451]  INFO - CarbonServerManager Repository       : /usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/
+[2018-10-31 15:01:44,474]  INFO - KafkaEventAdapterServiceHolder Kafka input event adaptor waiting for dependent configurations to load
+[2018-10-31 15:01:44,621]  INFO - QueueManagerServiceDS Successfully created the queue manager service
+[2018-10-31 15:01:44,626]  INFO - SubscriptionManagerServiceDS Successfully created the subscription manager service
+[2018-10-31 15:01:45,070]  INFO - ModuleDeployer Deploying module: addressing-1.6.1-wso2v28 - file:/usr/lib/wso2/wso2am/2.6.0/repository/deployment/client/modules/addressing-1.6.1-wso2v28.mar
+[2018-10-31 15:01:45,370]  INFO - ModuleDeployer Deploying module: addressing-1.6.1-wso2v28 - file:/usr/lib/wso2/wso2am/2.6.0/repository/deployment/client/modules/addressing-1.6.1-wso2v28.mar
+[2018-10-31 15:01:46,064]  INFO - TenantLoadingConfig Using tenant lazy loading policy...
+[2018-10-31 15:01:46,082]  INFO - PermissionUpdater Permission cache updated for tenant -1234
+[2018-10-31 15:01:46,651]  WARN - ApplicationManagementServiceComponent Templates directory not found at /usr/lib/wso2/wso2am/2.6.0/repository/resources/identity/authntemplates
+[2018-10-31 15:01:46,719]  INFO - DefaultKeyValidationHandler org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler Initialised
+[2018-10-31 15:01:46,720]  INFO - APIKeyValidationService Initialised KeyValidationHandler instance successfully
+[2018-10-31 15:01:46,751]  INFO - APIKeyMgtServiceComponent Started thrift key mgt service at port:10414
+[2018-10-31 15:01:46,922]  INFO - UserStoreMgtDSComponent Claim manager set for class org.wso2.carbon.user.core.common.DefaultRealm
+[2018-10-31 15:01:46,923]  INFO - UserStoreMgtDSComponent Claim manager set for class org.wso2.carbon.user.core.jdbc.JDBCUserStoreManager
+[2018-10-31 15:01:47,105]  INFO - SessionDataStore Thread pool size for temporary authentication context data delete task: 20
+[2018-10-31 15:01:47,564]  INFO - OAuth2ServiceComponent PKCE Support enabled.
+[2018-10-31 15:01:48,780]  INFO - ServiceBusInitializer Starting ESB...
+[2018-10-31 15:01:48,790]  INFO - ServiceBusInitializer Initializing Apache Synapse...
+[2018-10-31 15:01:48,805]  INFO - SynapseControllerFactory Using Synapse home : /usr/lib/wso2/wso2am/2.6.0/.
+[2018-10-31 15:01:48,806]  INFO - SynapseControllerFactory Using synapse.xml location : /usr/lib/wso2/wso2am/2.6.0/././repository/deployment/server/synapse-configs/default
+[2018-10-31 15:01:48,806]  INFO - SynapseControllerFactory Using server name : localhost
+[2018-10-31 15:01:48,809]  INFO - SynapseControllerFactory The timeout handler will run every : 15s
+[2018-10-31 15:01:48,825]  INFO - Axis2SynapseController Initializing Synapse at : Wed Oct 31 15:01:48 EAT 2018
+[2018-10-31 15:01:48,841]  INFO - CarbonSynapseController Loading the mediation configuration from the file system
+[2018-10-31 15:01:48,843]  INFO - MultiXMLConfigurationBuilder Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2018-10-31 15:01:48,846]  INFO - XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+[2018-10-31 15:01:49,033]  INFO - DependencyTracker Endpoint : mocky--v1.0.0_APIproductionEndpoint was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,041]  INFO - DependencyTracker Endpoint : mocky--v1.0.0_APIsandboxEndpoint was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,172]  INFO - DependencyTracker Sequence : _threat_fault_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,179]  INFO - DependencyTracker Sequence : _throttle_out_handler_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,189]  INFO - DependencyTracker Sequence : _production_key_error_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,191]  INFO - DependencyTracker Sequence : dispatchSeq was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,192]  INFO - DependencyTracker Sequence : _sandbox_key_error_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,233]  INFO - DependencyTracker Sequence : _cors_request_handler_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,245]  INFO - DependencyTracker Sequence : outDispatchSeq was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,255]  INFO - DependencyTracker Sequence : _token_fault_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,267]  INFO - DependencyTracker Sequence : _auth_failure_handler_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,273]  INFO - DependencyTracker Sequence : _build_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,301]  INFO - DependencyTracker Sequence : fault was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,321]  INFO - DependencyTracker Sequence : main was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,325]  INFO - DependencyTracker Sequence : _resource_mismatch_handler_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,350]  INFO - DependencyTracker Proxy service : WorkflowCallbackService was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,412]  INFO - DependencyTracker API : _WSO2AMUserInfoAPI_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,420]  INFO - DependencyTracker API : _WSO2AMAuthorizeAPI_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,438]  INFO - DependencyTracker API : _WSO2AMTokenAPI_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,649]  INFO - DependencyTracker API : admin--mocky:v1.0.0 was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,657]  INFO - DependencyTracker API : _WSO2AMRevokeAPI_ was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,689]  INFO - DependencyTracker Inbound Endpoint : WebSocketInboundEndpoint was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,691]  INFO - DependencyTracker Inbound Endpoint : SecureWebSocketEP was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,693]  INFO - SynapseConfigurationBuilder Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+[2018-10-31 15:01:49,695]  INFO - DependencyTracker Local entry : SERVER_HOST was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,699]  INFO - DependencyTracker Local entry : SERVER_IP was added to the Synapse configuration successfully
+[2018-10-31 15:01:49,730]  INFO - Axis2SynapseController Loading mediator extensions...
+[2018-10-31 15:01:50,540]  INFO - DataBridge user admin connected
+[2018-10-31 15:01:51,064]  INFO - DeploymentInterceptor Deploying Axis2 service: echo {super-tenant}
+[2018-10-31 15:01:51,064]  INFO - DeploymentEngine Deploying Web service: Echo.aar - file:/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/axis2services/Echo.aar
+[2018-10-31 15:01:51,072]  INFO - DeploymentInterceptor Deploying Axis2 service: Version {super-tenant}
+[2018-10-31 15:01:51,073]  INFO - DeploymentEngine Deploying Web service: Version.aar - file:/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/axis2services/Version.aar
+[2018-10-31 15:01:51,188]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.blocking.request.stream:1.0.0
+[2018-10-31 15:01:51,195]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.keytemplate.request.stream:1.0.0
+[2018-10-31 15:01:51,197]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:51,214]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.throttle.globalThrottle.stream:1.1.0
+[2018-10-31 15:01:51,222]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:51,236]  INFO - EventStreamDeployer Stream definition is deployed successfully  : org.wso2.throttle.request.stream:1.0.0
+[2018-10-31 15:01:51,267]  INFO - EventJunction WSO2EventConsumer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+[2018-10-31 15:01:51,272]  INFO - EventPublisherDeployer Event Publisher configuration successfully deployed and in active state : blockingEventJMSPublisher
+[2018-10-31 15:01:51,285]  INFO - EventJunction WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:51,286]  INFO - EventPublisherDeployer Event Publisher configuration successfully deployed and in active state : jmsEventPublisher
+[2018-10-31 15:01:51,300]  INFO - EventJunction WSO2EventConsumer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.1.0
+[2018-10-31 15:01:51,301]  INFO - EventPublisherDeployer Event Publisher configuration successfully deployed and in active state : jmsEventPublisher-1.0.0
+[2018-10-31 15:01:51,304]  INFO - EventJunction WSO2EventConsumer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+[2018-10-31 15:01:51,304]  INFO - EventPublisherDeployer Event Publisher configuration successfully deployed and in active state : keyTemplateEventPublisher
+[2018-10-31 15:01:51,339]  INFO - InputAdapterRuntime Connecting receiver blockingWso2EventReceiver
+[2018-10-31 15:01:51,343]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.blocking.request.stream:1.0.0
+[2018-10-31 15:01:51,344]  INFO - EventReceiverDeployer Event Receiver configuration successfully deployed and in active state: blockingWso2EventReceiver
+[2018-10-31 15:01:51,362]  INFO - InputAdapterRuntime Connecting receiver keyTemplateWso2EventReceiver
+[2018-10-31 15:01:51,364]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.keytemplate.request.stream:1.0.0
+[2018-10-31 15:01:51,365]  INFO - EventReceiverDeployer Event Receiver configuration successfully deployed and in active state: keyTemplateWso2EventReceiver
+[2018-10-31 15:01:51,366]  INFO - EventReceiverDeployer Event receiver deployment held back and in inactive state: throttleEventReceiver.xml, waiting for Input Event Adapter dependency: http
+[2018-10-31 15:01:51,373]  INFO - InputAdapterRuntime Connecting receiver throttleWSO2EventReceiver
+[2018-10-31 15:01:51,374]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+[2018-10-31 15:01:51,374]  INFO - EventReceiverDeployer Event Receiver configuration successfully deployed and in active state: throttleWSO2EventReceiver
+[2018-10-31 15:01:51,729]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:51,730]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+[2018-10-31 15:01:51,730]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : requestPreProcessorExecutionPlan
+[2018-10-31 15:01:51,885]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:51,886]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:51,886]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_app_10PerMin
+[2018-10-31 15:01:51,966]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:51,970]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:51,970]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_app_20PerMin
+[2018-10-31 15:01:52,064]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,064]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,064]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_app_50PerMin
+[2018-10-31 15:01:52,187]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,192]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,192]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_resource_10KPerMin_default
+[2018-10-31 15:01:52,295]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,295]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,296]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_resource_20KPerMin_default
+[2018-10-31 15:01:52,385]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,386]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,386]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_resource_50KPerMin_default
+[2018-10-31 15:01:52,474]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,475]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,476]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_sub_Bronze
+[2018-10-31 15:01:52,571]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,571]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,571]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_sub_Gold
+[2018-10-31 15:01:52,696]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,696]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,696]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_sub_Silver
+[2018-10-31 15:01:52,825]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.globalThrottle.stream:1.0.0
+[2018-10-31 15:01:52,830]  INFO - EventJunction Consumer added to the junction. Stream:org.wso2.throttle.processed.request.stream:1.0.0
+[2018-10-31 15:01:52,830]  INFO - EventProcessorDeployer Execution plan is deployed successfully and in active state  : carbon.super_sub_Unauthenticated
+[2018-10-31 15:01:56,193]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/calculator/v1].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/am#sample#calculator#v1.war]
+[2018-10-31 15:01:58,338]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/am/sample/pizzashack/v1].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/am#sample#pizzashack#v1.war]
+[2018-10-31 15:02:02,673]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/admin/v0.14].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/api#am#admin#v0.14.war]
+[2018-10-31 15:02:02,899]  INFO - SchemaBuilder XACML policy schema loaded successfully.
+[2018-10-31 15:02:06,948]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/publisher/v0.14].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/api#am#publisher#v0.14.war]
+[2018-10-31 15:02:10,694]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/am/store/v0.14].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/api#am#store#v0.14.war]
+[2018-10-31 15:02:14,089]  INFO - ServerImpl Setting the server's publish address to be /
+[2018-10-31 15:02:14,234]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/api/identity/consent-mgt/v1.0].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/api#identity#consent-mgt#v1.0.war]
+[2018-10-31 15:02:17,386]  INFO - TenantDataManager EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+[2018-10-31 15:02:17,403]  INFO - MutualSSLManager EndpointConfig.properties file loaded from ./repository/conf/identity/EndpointConfig.properties
+[2018-10-31 15:02:20,309]  INFO - TldLocationsCache At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2018-10-31 15:02:21,037]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/authenticationendpoint].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/authenticationendpoint.war]
+[2018-10-31 15:02:24,290]  INFO - ServerImpl Setting the server's publish address to be /register
+[2018-10-31 15:02:24,475]  INFO - CarbonEventManagementService Starting polling event receivers
+[2018-10-31 15:02:24,592]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/client-registration/v0.14].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/client-registration#v0.14.war]
+[2018-10-31 15:02:28,504]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/oauth2].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/oauth2.war]
+[2018-10-31 15:02:32,440]  INFO - ServerImpl Setting the server's publish address to be /
+[2018-10-31 15:02:32,693]  INFO - TomcatGenericWebappsDeployer Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/throttle/data/v1].File[/usr/lib/wso2/wso2am/2.6.0/repository/deployment/server/webapps/throttle#data#v1.war]
+[2018-10-31 15:02:34,385]  INFO - Axis2SynapseController Deploying the Synapse service...
+[2018-10-31 15:02:34,387]  INFO - Axis2SynapseController Deploying Proxy services...
+[2018-10-31 15:02:34,387]  INFO - ProxyService Building Axis service for Proxy service : WorkflowCallbackService
+[2018-10-31 15:02:34,471]  INFO - ProxyService Adding service WorkflowCallbackService to the Axis2 configuration
+[2018-10-31 15:02:34,476]  INFO - DeploymentInterceptor Deploying Axis2 service: WorkflowCallbackService {super-tenant}
+[2018-10-31 15:02:34,477]  INFO - ProxyService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+[2018-10-31 15:02:34,478]  INFO - Axis2SynapseController Deployed Proxy service : WorkflowCallbackService
+[2018-10-31 15:02:34,478]  INFO - Axis2SynapseController Deploying EventSources...
+[2018-10-31 15:02:34,586]  INFO - InboundEndpoint Initializing Inbound Endpoint: WebSocketInboundEndpoint
+[2018-10-31 15:02:35,345]  INFO - DataBridge user admin connected
+[2018-10-31 15:02:35,401]  INFO - WebsocketEndpointManager Netty Listener starting on port 9116
+[2018-10-31 15:02:35,401]  INFO - InboundEndpoint Initializing Inbound Endpoint: SecureWebSocketEP
+[2018-10-31 15:02:35,470]  INFO - WebsocketEndpointManager Netty SSL Listener starting on port 8116
+[2018-10-31 15:02:35,474]  INFO - API Initializing API: admin--mocky:v1.0.0
+[2018-10-31 15:02:35,488]  INFO - API Initializing API: _WSO2AMAuthorizeAPI_
+[2018-10-31 15:02:35,491]  INFO - API Initializing API: _WSO2AMUserInfoAPI_
+[2018-10-31 15:02:35,491]  INFO - API Initializing API: _WSO2AMRevokeAPI_
+[2018-10-31 15:02:35,491]  INFO - API Initializing API: _WSO2AMTokenAPI_
+[2018-10-31 15:02:35,495]  INFO - ServerManager Server ready for processing...
+[2018-10-31 15:02:36,067]  INFO - WebsocketEndpointManager Netty Listener already started on port 8116
+[2018-10-31 15:02:36,067]  INFO - WebsocketEndpointManager Netty Listener already started on port 9116
+[2018-10-31 15:02:36,466]  INFO - AndesConfigurationManager Main andes configuration located at : /usr/lib/wso2/wso2am/2.6.0/repository/conf/broker.xml
+[2018-10-31 15:02:36,590]  INFO - QpidServiceComponent Activating Andes Message Broker Engine...
+[2018-10-31 15:02:36,711]  INFO - Broker Starting Qpid using configuration : /usr/lib/wso2/wso2am/2.6.0/repository/conf/advanced/qpid-config.xml
+[2018-10-31 15:02:36,950]  INFO - ApplicationRegistry Initialising Application Registry(org.wso2.andes.server.registry.ConfigurationFileApplicationRegistry@3c073715)
+[2018-10-31 15:02:37,069]  INFO - PluginManager Opened service trackers
+[Broker] BRK-1001 : Startup : Version: 0.11 Build: 90784:90849
+[2018-10-31 15:02:37,286]  INFO - JMXManagedObjectRegistry Initialising managed object registry using jplatform MBean server
+[2018-10-31 15:02:37,303]  INFO - PrincipalDatabaseAuthenticationManager PrincipalDatabase concrete implementation : org.wso2.carbon.andes.authentication.andes.CarbonBasedPrincipalDatabase
+[2018-10-31 15:02:37,323]  INFO - PrincipalDatabaseAuthenticationManager Initialised PLAIN SASL provider successfully
+[2018-10-31 15:02:37,324]  INFO - PrincipalDatabaseAuthenticationManager Additional SASL providers successfully registered.
+[2018-10-31 15:02:37,326]  INFO - PrincipalDatabaseAuthenticationManager Registering UserManagementMBean
+[Broker] MNG-1001 : Startup
+[Broker] MNG-1004 : Ready : Using the platform JMX Agent
+[2018-10-31 15:02:38,094]  INFO - RDBMSConnection JDBC connection established with jndi config WSO2MBStoreDB
+[2018-10-31 15:02:38,174]  INFO - RDBMSAndesContextStoreImpl Andes Context Store initialised
+[2018-10-31 15:02:38,174]  INFO - AndesKernelBoot AndesContextStore initialised with org.wso2.andes.store.rdbms.RDBMSAndesContextStoreImpl
+[2018-10-31 15:02:38,205]  INFO - RDBMSConnection JDBC connection established with jndi config WSO2MBStoreDB
+[2018-10-31 15:02:38,307]  WARN - AndesConfigurationManager Error when trying to read property : transaction/maxWaitTimeout. Switching to default value : 30
+[2018-10-31 15:02:38,326]  INFO - RDBMSMessageStoreImpl Message Store initialised
+[2018-10-31 15:02:38,327]  INFO - AndesKernelBoot Andes MessageStore initialised with org.wso2.andes.store.rdbms.RDBMSMessageStoreImpl
+[2018-10-31 15:02:38,487]  INFO - ClusterManager Initializing Standalone Mode. Current Node ID:NODE:loogs-VirtualBox/127.0.1.1 127.0.1.1
+[2018-10-31 15:02:38,790]  INFO - Andes Andes API initialised.
+[2018-10-31 15:02:38,897]  INFO - AndesChannel Channel created (ID: Internel_channel)
+[2018-10-31 15:02:38,904]  INFO - AndesKernelBoot Syncing exchanges, queues, bindings and subscriptions
+[2018-10-31 15:02:38,914]  INFO - InboundDBSyncRequestEvent Running DB sync task.
+[2018-10-31 15:02:38,923]  WARN - InboundDBSyncRequestEvent Recovering node. Adding exchange messageRouterName=amq.dlc,type=DLC,autoDelete=false
+[2018-10-31 15:02:38,927]  INFO - AndesContextInformationManager Message Router Sync [create]: amq.dlc
+[2018-10-31 15:02:38,929]  WARN - InboundDBSyncRequestEvent Recovering node. Adding queue to queue registry queueName=deadletterchannel,queueOwner=admin,isExclusive=false,isDurable=true,isShared=false,lastPurgedTimestamp=0
+[2018-10-31 15:02:38,972]  INFO - Andes Starting Safe Zone Calculator for slots.
+[2018-10-31 15:02:39,174]  INFO - AndesContextInformationManager Queue Sync [create]: deadletterchannel
+[2018-10-31 15:02:39,182]  WARN - InboundDBSyncRequestEvent Recovering node. Adding queue to queue registry queueName=testdomain.com/deadletterchannel,queueOwner=testdemo,isExclusive=false,isDurable=true,isShared=false,lastPurgedTimestamp=0
+[2018-10-31 15:02:39,214]  INFO - AndesContextInformationManager Queue Sync [create]: testdomain.com/deadletterchannel
+[2018-10-31 15:02:39,217]  WARN - InboundDBSyncRequestEvent Recovering node. Adding binding [Binding]E=amq.dlc/Q=deadletterchannel/RK=deadletterchannel/D=true/EX=false
+[2018-10-31 15:02:39,219]  INFO - AndesContextInformationManager Binding Sync [create]: [Binding]E=amq.dlc/Q=deadletterchannel/RK=deadletterchannel/D=true/EX=false
+[2018-10-31 15:02:39,232]  WARN - InboundDBSyncRequestEvent Recovering node. Adding binding [Binding]E=amq.dlc/Q=testdomain.com/deadletterchannel/RK=testdomain.com/deadletterchannel/D=true/EX=false
+[2018-10-31 15:02:39,232]  INFO - AndesContextInformationManager Binding Sync [create]: [Binding]E=amq.dlc/Q=testdomain.com/deadletterchannel/RK=testdomain.com/deadletterchannel/D=true/EX=false
+[Broker] BRK-1002 : Starting : Listening on TCP port 5689
+[2018-10-31 15:02:39,518]  INFO - listening [Broker] BRK-1002 : Starting : Listening on TCP port 5689
+[Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8689
+[2018-10-31 15:02:39,534]  INFO - listening [Broker] BRK-1002 : Starting : Listening on TCP/SSL port 8689
+[Broker] BRK-1004 : Qpid Broker Ready
+[2018-10-31 15:02:39,544]  INFO - MessagingEngine Starting SlotDelivery Workers.
+[2018-10-31 15:02:39,544]  INFO - TaskExecutorService Starting task manager. Task count 0
+[2018-10-31 15:02:39,550]  INFO - MessagingEngine Start Disruptor writing messages to store.
+[2018-10-31 15:02:39,562]  INFO - QpidServiceComponent AMQP Host Address : 0.0.0.0 Port : 5689
+[2018-10-31 15:02:39,563]  INFO - QpidServiceComponent Successfully connected to AMQP server on port 5689
+[2018-10-31 15:02:39,564]  WARN - QpidServiceComponent MQTT Transport is disabled as per configuration.
+[2018-10-31 15:02:39,564]  INFO - QpidServiceComponent WSO2 Message Broker is started.
+[2018-10-31 15:02:39,766]  INFO - JMSConnectionFactory JMS ConnectionFactory : Siddhi-JMS-Consumer initialized
+[2018-10-31 15:02:39,795]  INFO - JMSTransportHandler Starting jms topic consumer thread...
+[2018-10-31 15:02:40,422]  INFO - DynamicSaslRegistrar Additional SASL providers successfully registered.
+[2018-10-31 15:02:40,423]  INFO - CallbackHandlerRegistry Callback handlers available for SASL mechanisms: CRAM-MD5 CRAM-MD5-HASHED AMQPLAIN PLAIN
+[2018-10-31 15:02:40,618]  INFO - ConnectionStartOkMethodHandler SASL Mechanism selected: PLAIN
+[2018-10-31 15:02:40,627]  INFO - ConnectionStartOkMethodHandler Locale selected: en_US
+[2018-10-31 15:02:40,755]  INFO - ConnectionStartOkMethodHandler Connected as: admin
+[2018-10-31 15:02:40,755]  INFO - ConnectionStartOkMethodHandler Framesize set to 65535
+[2018-10-31 15:02:40,873]  INFO - ConnectionCloseMethodHandler ConnectionClose received with reply code/reply text 200/JMS client is closing the connection. for /10.0.2.15:45896(admin)
+[2018-10-31 15:02:40,882]  INFO - JMSListener Connection attempt: 1 for JMS Provider for listener: Siddhi-JMS-Consumer#throttleData was successful!
+[2018-10-31 15:02:40,916]  INFO - JMSTaskManager Task manager for Siddhi-JMS-Consumer [re-]initialized
+[2018-10-31 15:02:41,009]  INFO - ConnectionStartOkMethodHandler SASL Mechanism selected: PLAIN
+[2018-10-31 15:02:41,018]  INFO - ConnectionStartOkMethodHandler Locale selected: en_US
+[2018-10-31 15:02:41,023]  INFO - ConnectionStartOkMethodHandler Connected as: admin
+[2018-10-31 15:02:41,024]  INFO - ConnectionStartOkMethodHandler Framesize set to 65535
+[2018-10-31 15:02:41,149]  INFO - ChannelOpenHandler Connecting to: carbon
+[2018-10-31 15:02:41,306]  INFO - AndesChannel Channel created (ID: 10.0.2.15:45898)
+[2018-10-31 15:02:41,347]  WARN - JMSUtils Cannot locate destination : throttleData
+[2018-10-31 15:02:42,247]  INFO - QueueDeclareHandler Queue tmp_10_0_2_15_45898_1 bound to default exchange(<<default>>)
+[2018-10-31 15:02:42,252]  INFO - QueueDeclareHandler Queue tmp_10_0_2_15_45898_1 declared successfully
+[2018-10-31 15:02:42,731]  INFO - AndesContextInformationManager Queue Created: AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1
+[2018-10-31 15:02:42,734]  INFO - AndesContextInformationManager Binding Created: [Binding]E=amq.topic/Q=AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1/RK=throttledata/D=false/EX=true
+[2018-10-31 15:02:42,734]  INFO - QueueBindHandler Binding queue tmp_10_0_2_15_45898_1 to exchange TopicExchange[amq.topic] with routing key throttledata
+[2018-10-31 15:02:43,263]  INFO - AndesSubscriptionManager Add Local subscription AMQP subscriptionId=31804fa8-d48d-416b-81d0-f7e4febaabb9,storageQueue=AMQP_Topic_throttledata_NODE:loogs-VirtualBox/127.0.1.1,protocolType=AMQP,isActive=true,connection= [ connectedIP=/10.0.2.15:45898/1,connectedNode=NODE:loogs-VirtualBox/127.0.1.1,protocolChannelID=da140da3-4387-43ca-8e3f-47280e8ff2a7 ]
+[2018-10-31 15:02:43,378]  INFO - ThriftDataReceiver Thrift Server IP : 0.0.0.0
+[2018-10-31 15:02:43,512]  INFO - ThriftDataReceiver Thrift SSL port : 7728
+[2018-10-31 15:02:43,516]  INFO - ThriftDataReceiver Thrift port : 7628
+[2018-10-31 15:02:43,517]  INFO - ThriftDataReceiver$ServerThread Thrift receiver started on 0.0.0.0:7728
+[2018-10-31 15:02:43,530]  INFO - ThriftDataReceiver$ServerThread Thrift receiver started on 0.0.0.0:7628
+[2018-10-31 15:02:43,624]  INFO - PassThroughHttpListener Starting Pass-through HTTP Listener...
+[2018-10-31 15:02:43,922]  WARN - JMSListener Polling tasks on destination : throttleData of type topic for listener Siddhi-JMS-Consumer#throttleData have not yet started after 3 seconds ..
+[2018-10-31 15:02:43,984]  INFO - PassThroughListeningIOReactorManager Pass-through HTTP Listener started on 0.0.0.0:8297
+[2018-10-31 15:02:43,988]  INFO - PassThroughHttpSSLListener Starting Pass-through HTTPS Listener...
+[2018-10-31 15:02:44,023]  INFO - PassThroughListeningIOReactorManager Pass-through HTTPS Listener started on 0.0.0.0:8260
+[2018-10-31 15:02:44,255]  INFO - NioSelectorPool Using a shared selector for servlet write/read
+[2018-10-31 15:02:44,599]  INFO - NioSelectorPool Using a shared selector for servlet write/read
+[2018-10-31 15:02:45,540]  INFO - TaskServiceImpl Task service starting in STANDALONE mode...
+[2018-10-31 15:02:48,437]  INFO - RegistryEventingServiceComponent Successfully Initialized Eventing on Registry
+[2018-10-31 15:02:53,362]  INFO - JMXServerManager JMX Service URL  : service:jmx:rmi://localhost:11128/jndi/rmi://localhost:10016/jmxrmi
+[2018-10-31 15:02:53,366]  INFO - StartupFinalizerServiceComponent Server           :  WSO2 API Manager-2.6.0
+[2018-10-31 15:02:53,384]  INFO - StartupFinalizerServiceComponent WSO2 Carbon started in 126 sec
+[2018-10-31 15:03:02,311]  INFO - CarbonUIServiceComponent Mgt Console URL  : https://10.0.2.15:9460/carbon/
+[2018-10-31 15:03:02,311]  INFO - CarbonUIServiceComponent API Store Default Context : https://10.0.2.15:9460/store
+[2018-10-31 15:03:02,311]  INFO - CarbonUIServiceComponent API Publisher Default Context : https://10.0.2.15:9460/publisher
+[2018-10-31 15:03:02,777]  INFO - EventReceiverDeployer Event Receiver undeployed successfully: throttleEventReceiver.xml
+[2018-10-31 15:03:02,804]  INFO - InputAdapterRuntime Connecting receiver throttleEventReceiver
+[2018-10-31 15:03:02,806]  INFO - EventJunction Producer added to the junction. Stream:org.wso2.throttle.request.stream:1.0.0
+[2018-10-31 15:03:02,818]  INFO - EventReceiverDeployer Event Receiver configuration successfully deployed and in active state: throttleEventReceiver
+[2018-10-31 15:17:38,937]  INFO - InboundDBSyncRequestEvent Running DB sync task.
+
+
